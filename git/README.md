@@ -8,3 +8,6 @@
 
 ### Visualise commits with branches
 `git log --oneline --graph`
+
+### Prevent repo from using git store credentials
+`git config --local credential.helper ""`
